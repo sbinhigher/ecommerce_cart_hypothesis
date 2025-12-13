@@ -62,7 +62,7 @@ flowchart LR
 	subgraph G[데이터 분석]
 		direction TB
 		G1[가설 검증: 통계 검정\/효과 추정]
-		G2[예측·분류 모델: LogReg → XGBoost]
+		G2[예측·분류 모델: LightGBM]
 		G1 --> G2
 	end
 	
